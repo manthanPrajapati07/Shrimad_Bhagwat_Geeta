@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180D38252C986D92001489CF /* ChapterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D38232C986D92001489CF /* ChapterCell.swift */; };
+		180D38262C986D92001489CF /* ChapterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180D38242C986D92001489CF /* ChapterCell.xib */; };
+		180D38282C987706001489CF /* ChapterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D38272C987706001489CF /* ChapterVC.swift */; };
+		181685E42C9367CB005BD595 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181685E32C9367CB005BD595 /* APIManager.swift */; };
+		181685E62C9369B5005BD595 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181685E52C9369B5005BD595 /* EndPoint.swift */; };
+		18B303792C9B0684008E114F /* CornerRadius + shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B303782C9B0684008E114F /* CornerRadius + shadow.swift */; };
+		18B3037B2C9B1599008E114F /* ChapterDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3037A2C9B1599008E114F /* ChapterDetailVC.swift */; };
+		18B303822C9B330C008E114F /* VersesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B303802C9B330C008E114F /* VersesCell.swift */; };
+		18B303832C9B330C008E114F /* VersesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B303812C9B330C008E114F /* VersesCell.xib */; };
+		18B303852C9B36C3008E114F /* VarsesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B303842C9B36C3008E114F /* VarsesViewModel.swift */; };
+		18B303872C9B3825008E114F /* Verses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B303862C9B3825008E114F /* Verses.swift */; };
+		18BF37DC2C96E9CA00005840 /* ChapterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF37DB2C96E9CA00005840 /* ChapterViewModel.swift */; };
+		18BF37DF2C97618300005840 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF37DE2C97618300005840 /* Constant.swift */; };
+		18C1AA8B2CA34D6200D55E24 /* VersesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1AA8A2CA34D6200D55E24 /* VersesDetailVC.swift */; };
+		18F3D5232C92FA3B00E85A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3D5222C92FA3B00E85A80 /* AppDelegate.swift */; };
+		18F3D5252C92FA3B00E85A80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3D5242C92FA3B00E85A80 /* SceneDelegate.swift */; };
+		18F3D52A2C92FA3B00E85A80 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18F3D5292C92FA3B00E85A80 /* Base */; };
+		18F3D52C2C92FA3D00E85A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F3D52B2C92FA3D00E85A80 /* Assets.xcassets */; };
+		18F3D52F2C92FA3D00E85A80 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18F3D52E2C92FA3D00E85A80 /* Base */; };
+		18F3D5412C935FC600E85A80 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3D5402C935FC600E85A80 /* Chapter.swift */; };
+		3072754B9601433D16332A2D /* Pods_Shrimad_Bhagwat_Geeta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5CA9EC5D768C32D8084498 /* Pods_Shrimad_Bhagwat_Geeta.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17CD53587A74EE90A45ACD4C /* Pods-Shrimad_Bhagwat_Geeta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shrimad_Bhagwat_Geeta.release.xcconfig"; path = "Target Support Files/Pods-Shrimad_Bhagwat_Geeta/Pods-Shrimad_Bhagwat_Geeta.release.xcconfig"; sourceTree = "<group>"; };
+		180D38232C986D92001489CF /* ChapterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCell.swift; sourceTree = "<group>"; };
+		180D38242C986D92001489CF /* ChapterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChapterCell.xib; sourceTree = "<group>"; };
+		180D38272C987706001489CF /* ChapterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVC.swift; sourceTree = "<group>"; };
+		181685E32C9367CB005BD595 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		181685E52C9369B5005BD595 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		18B303782C9B0684008E114F /* CornerRadius + shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CornerRadius + shadow.swift"; sourceTree = "<group>"; };
+		18B3037A2C9B1599008E114F /* ChapterDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDetailVC.swift; sourceTree = "<group>"; tabWidth = 3; };
+		18B303802C9B330C008E114F /* VersesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersesCell.swift; sourceTree = "<group>"; };
+		18B303812C9B330C008E114F /* VersesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VersesCell.xib; sourceTree = "<group>"; };
+		18B303842C9B36C3008E114F /* VarsesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarsesViewModel.swift; sourceTree = "<group>"; };
+		18B303862C9B3825008E114F /* Verses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verses.swift; sourceTree = "<group>"; };
+		18BF37DB2C96E9CA00005840 /* ChapterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewModel.swift; sourceTree = "<group>"; };
+		18BF37DE2C97618300005840 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		18C1AA8A2CA34D6200D55E24 /* VersesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersesDetailVC.swift; sourceTree = "<group>"; };
+		18F3D51F2C92FA3B00E85A80 /* Shrimad_Bhagwat_Geeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shrimad_Bhagwat_Geeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F3D5222C92FA3B00E85A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F3D5242C92FA3B00E85A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18F3D5292C92FA3B00E85A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F3D52B2C92FA3D00E85A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F3D52E2C92FA3D00E85A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F3D5302C92FA3D00E85A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F3D5402C935FC600E85A80 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		9D5CA9EC5D768C32D8084498 /* Pods_Shrimad_Bhagwat_Geeta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shrimad_Bhagwat_Geeta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6791DE86E69FF423D6C3E58 /* Pods-Shrimad_Bhagwat_Geeta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shrimad_Bhagwat_Geeta.debug.xcconfig"; path = "Target Support Files/Pods-Shrimad_Bhagwat_Geeta/Pods-Shrimad_Bhagwat_Geeta.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F3D51C2C92FA3B00E85A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3072754B9601433D16332A2D /* Pods_Shrimad_Bhagwat_Geeta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181685DD2C936623005BD595 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				18F3D5242C92FA3B00E85A80 /* SceneDelegate.swift */,
+				18F3D5222C92FA3B00E85A80 /* AppDelegate.swift */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		181685DF2C936660005BD595 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				180D38232C986D92001489CF /* ChapterCell.swift */,
+				180D38242C986D92001489CF /* ChapterCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		18B303772C9B065E008E114F /* extantions */ = {
+			isa = PBXGroup;
+			children = (
+				18B303782C9B0684008E114F /* CornerRadius + shadow.swift */,
+			);
+			path = extantions;
+			sourceTree = "<group>";
+		};
+		18B3037C2C9B327E008E114F /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				18B303842C9B36C3008E114F /* VarsesViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		18B3037D2C9B3282008E114F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18B3037F2C9B32CF008E114F /* cell */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18B3037E2C9B3286008E114F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18B303862C9B3825008E114F /* Verses.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		18B3037F2C9B32CF008E114F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				18B303802C9B330C008E114F /* VersesCell.swift */,
+				18B303812C9B330C008E114F /* VersesCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		18BF37CE2C96DFDF00005840 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				18BF37CF2C96DFF000005840 /* chapter */,
+				18BF37D82C96E70500005840 /* verses */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		18BF37CF2C96DFF000005840 /* chapter */ = {
+			isa = PBXGroup;
+			children = (
+				18BF37D02C96E01600005840 /* model */,
+				18BF37D22C96E02600005840 /* view */,
+				18BF37D12C96E01F00005840 /* viewmodel */,
+			);
+			path = chapter;
+			sourceTree = "<group>";
+		};
+		18BF37D02C96E01600005840 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18F3D5402C935FC600E85A80 /* Chapter.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		18BF37D12C96E01F00005840 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				18BF37DB2C96E9CA00005840 /* ChapterViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		18BF37D22C96E02600005840 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				181685DF2C936660005BD595 /* cell */,
+				180D38272C987706001489CF /* ChapterVC.swift */,
+				18B3037A2C9B1599008E114F /* ChapterDetailVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18BF37D42C96E07700005840 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				18F3D52B2C92FA3D00E85A80 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		18BF37D52C96E0F100005840 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				181685E32C9367CB005BD595 /* APIManager.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		18BF37D62C96E11C00005840 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				18BF37DE2C97618300005840 /* Constant.swift */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		18BF37D72C96E17000005840 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				18F3D5282C92FA3B00E85A80 /* Main.storyboard */,
+				18F3D52D2C92FA3D00E85A80 /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		18BF37D82C96E70500005840 /* verses */ = {
+			isa = PBXGroup;
+			children = (
+				18B3037E2C9B3286008E114F /* model */,
+				18B3037D2C9B3282008E114F /* view */,
+				18C1AA8A2CA34D6200D55E24 /* VersesDetailVC.swift */,
+				18B3037C2C9B327E008E114F /* viewmodel */,
+			);
+			path = verses;
+			sourceTree = "<group>";
+		};
+		18BF37DD2C96F03600005840 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				181685E52C9369B5005BD595 /* EndPoint.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		18F3D5162C92FA3B00E85A80 = {
+			isa = PBXGroup;
+			children = (
+				18F3D5212C92FA3B00E85A80 /* Shrimad_Bhagwat_Geeta */,
+				18F3D5202C92FA3B00E85A80 /* Products */,
+				DAA67CE636A87F683E171D0A /* Pods */,
+				3D08CD235C0139B50317F9E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18F3D5202C92FA3B00E85A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F3D51F2C92FA3B00E85A80 /* Shrimad_Bhagwat_Geeta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F3D5212C92FA3B00E85A80 /* Shrimad_Bhagwat_Geeta */ = {
+			isa = PBXGroup;
+			children = (
+				18BF37DD2C96F03600005840 /* Utility */,
+				181685DD2C936623005BD595 /* support */,
+				18BF37D62C96E11C00005840 /* constant */,
+				18BF37D52C96E0F100005840 /* helper */,
+				18BF37D42C96E07700005840 /* resources */,
+				18BF37CE2C96DFDF00005840 /* screens */,
+				18BF37D72C96E17000005840 /* storyboard */,
+				18B303772C9B065E008E114F /* extantions */,
+				18F3D5302C92FA3D00E85A80 /* Info.plist */,
+			);
+			path = Shrimad_Bhagwat_Geeta;
+			sourceTree = "<group>";
+		};
+		3D08CD235C0139B50317F9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D5CA9EC5D768C32D8084498 /* Pods_Shrimad_Bhagwat_Geeta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAA67CE636A87F683E171D0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6791DE86E69FF423D6C3E58 /* Pods-Shrimad_Bhagwat_Geeta.debug.xcconfig */,
+				17CD53587A74EE90A45ACD4C /* Pods-Shrimad_Bhagwat_Geeta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F3D51E2C92FA3B00E85A80 /* Shrimad_Bhagwat_Geeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F3D5332C92FA3D00E85A80 /* Build configuration list for PBXNativeTarget "Shrimad_Bhagwat_Geeta" */;
+			buildPhases = (
+				56909C7C1C234EFF08DC35DF /* [CP] Check Pods Manifest.lock */,
+				18F3D51B2C92FA3B00E85A80 /* Sources */,
+				18F3D51C2C92FA3B00E85A80 /* Frameworks */,
+				18F3D51D2C92FA3B00E85A80 /* Resources */,
+				1FB0A505AE35BB3BE65608C2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shrimad_Bhagwat_Geeta;
+			productName = Shrimad_Bhagwat_Geeta;
+			productReference = 18F3D51F2C92FA3B00E85A80 /* Shrimad_Bhagwat_Geeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F3D5172C92FA3B00E85A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					18F3D51E2C92FA3B00E85A80 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 18F3D51A2C92FA3B00E85A80 /* Build configuration list for PBXProject "Shrimad_Bhagwat_Geeta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F3D5162C92FA3B00E85A80;
+			productRefGroup = 18F3D5202C92FA3B00E85A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F3D51E2C92FA3B00E85A80 /* Shrimad_Bhagwat_Geeta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F3D51D2C92FA3B00E85A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F3D52C2C92FA3D00E85A80 /* Assets.xcassets in Resources */,
+				18F3D52F2C92FA3D00E85A80 /* Base in Resources */,
+				18F3D52A2C92FA3B00E85A80 /* Base in Resources */,
+				18B303832C9B330C008E114F /* VersesCell.xib in Resources */,
+				180D38262C986D92001489CF /* ChapterCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FB0A505AE35BB3BE65608C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shrimad_Bhagwat_Geeta/Pods-Shrimad_Bhagwat_Geeta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shrimad_Bhagwat_Geeta/Pods-Shrimad_Bhagwat_Geeta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shrimad_Bhagwat_Geeta/Pods-Shrimad_Bhagwat_Geeta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56909C7C1C234EFF08DC35DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shrimad_Bhagwat_Geeta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F3D51B2C92FA3B00E85A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B303792C9B0684008E114F /* CornerRadius + shadow.swift in Sources */,
+				18B303822C9B330C008E114F /* VersesCell.swift in Sources */,
+				18B303852C9B36C3008E114F /* VarsesViewModel.swift in Sources */,
+				181685E62C9369B5005BD595 /* EndPoint.swift in Sources */,
+				18BF37DF2C97618300005840 /* Constant.swift in Sources */,
+				18F3D5412C935FC600E85A80 /* Chapter.swift in Sources */,
+				180D38282C987706001489CF /* ChapterVC.swift in Sources */,
+				18F3D5232C92FA3B00E85A80 /* AppDelegate.swift in Sources */,
+				180D38252C986D92001489CF /* ChapterCell.swift in Sources */,
+				18BF37DC2C96E9CA00005840 /* ChapterViewModel.swift in Sources */,
+				18F3D5252C92FA3B00E85A80 /* SceneDelegate.swift in Sources */,
+				18C1AA8B2CA34D6200D55E24 /* VersesDetailVC.swift in Sources */,
+				181685E42C9367CB005BD595 /* APIManager.swift in Sources */,
+				18B3037B2C9B1599008E114F /* ChapterDetailVC.swift in Sources */,
+				18B303872C9B3825008E114F /* Verses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18F3D5282C92FA3B00E85A80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F3D5292C92FA3B00E85A80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F3D52D2C92FA3D00E85A80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F3D52E2C92FA3D00E85A80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F3D5312C92FA3D00E85A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F3D5322C92FA3D00E85A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F3D5342C92FA3D00E85A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6791DE86E69FF423D6C3E58 /* Pods-Shrimad_Bhagwat_Geeta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJJX987WNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shrimad_Bhagwat_Geeta/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bhagavad Gita";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "manthan.Shrimad-Bhagwat-Geeta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F3D5352C92FA3D00E85A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CD53587A74EE90A45ACD4C /* Pods-Shrimad_Bhagwat_Geeta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJJX987WNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shrimad_Bhagwat_Geeta/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bhagavad Gita";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "manthan.Shrimad-Bhagwat-Geeta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F3D51A2C92FA3B00E85A80 /* Build configuration list for PBXProject "Shrimad_Bhagwat_Geeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3D5312C92FA3D00E85A80 /* Debug */,
+				18F3D5322C92FA3D00E85A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F3D5332C92FA3D00E85A80 /* Build configuration list for PBXNativeTarget "Shrimad_Bhagwat_Geeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3D5342C92FA3D00E85A80 /* Debug */,
+				18F3D5352C92FA3D00E85A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F3D5172C92FA3B00E85A80 /* Project object */;
+}

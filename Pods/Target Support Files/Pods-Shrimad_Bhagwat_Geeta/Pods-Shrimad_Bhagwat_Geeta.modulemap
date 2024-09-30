@@ -1,0 +1,6 @@
+framework module Pods_Shrimad_Bhagwat_Geeta {
+  umbrella header "Pods-Shrimad_Bhagwat_Geeta-umbrella.h"
+
+  export *
+  module * { export * }
+}
